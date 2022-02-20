@@ -1,0 +1,5 @@
+bind_addr = ":8080"
+logging_level = "debug"
+
+[store]
+database_url = "postgresql://root:123@localhost:5432/restapi_dev?sslmode=disable"
